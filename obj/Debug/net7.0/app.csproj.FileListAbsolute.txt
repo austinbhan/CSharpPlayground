@@ -1,0 +1,15 @@
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/bin/Debug/net7.0/app
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/bin/Debug/net7.0/app.deps.json
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/bin/Debug/net7.0/app.runtimeconfig.json
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/bin/Debug/net7.0/app.dll
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/bin/Debug/net7.0/app.pdb
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.csproj.AssemblyReference.cache
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.AssemblyInfoInputs.cache
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.AssemblyInfo.cs
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.csproj.CoreCompileInputs.cache
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.dll
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/refint/app.dll
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.pdb
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/app.genruntimeconfig.cache
+/Users/austinhan/Desktop/Software Dev/C#Projects/CSharpPlayground/obj/Debug/net7.0/ref/app.dll
