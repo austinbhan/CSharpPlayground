@@ -1,29 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Reflection.Emit;
 using System.Runtime.ConstrainedExecution;
 
-Food currentFood = Food.Soup;
-Taste currentTaste = Taste.Hot;
-Ingredient currentIngredient = Ingredient.Mushrooms;
+Score score = new Score("R2D2", 12420, 15);
+class Score {
+    public string name;
+    public int points;
+    public int level;
 
-var finalResult = (currentFood, currentTaste, currentIngredient);
-Console.WriteLine(finalResult);
-
-enum Food {
-    Soup,
-    Stew,
-    Gumbo
-}
-
-enum Taste {
-    Hot, 
-    Salty, 
-    Sweet
-}
-
-enum Ingredient {
-    Mushrooms,
-    Chicken, 
-    Carrots,
-    Potatoes
+    public Score(string n, int p, int l) 
+    {
+        name = n;
+        points = p;
+        level = l;
+    }
+    public bool EarnedStar() => (points/level) > 1000;
 }
