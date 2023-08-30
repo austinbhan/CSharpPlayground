@@ -21,3 +21,29 @@
 // -I need-
 // User creates a class instance
 // Creator creates class parameters 
+
+using System.Runtime.InteropServices;
+
+Arrow arrow = new Arrow(); // Create a new instance whose type is arrow, and to store it 
+class Arrow {
+    public ArrowHeadType _arrowheadType; // Create values into existence
+    public FletchingType _fletchingType;
+    public float _length;
+
+    public Arrow(ArrowHeadType arrowHeadType, FletchingType fletchingType, float length)  // Assign values
+    {
+        _arrowheadType = arrowHeadType;
+        _fletchingType = fletchingType;
+        _length = length;
+    }
+
+    public Arrow() // Define default values
+    {
+        _arrowheadType = ArrowHeadType.Steel;
+        _fletchingType = FletchingType.GooseFeather;
+        _length = 75;
+    }
+}
+
+enum ArrowHeadType { Steel, Wood, Obsidian }
+enum FletchingType { Plastic, TurkeyFeather, GooseFeather }
