@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Score a = new Score("Bob", 12420, 15);
+Console.WriteLine("What is your input?");
+string input = Console.ReadLine();
 
-Console.WriteLine(a);
+Score a = new Score(input, 12420, 15);
+Console.WriteLine(a._name);
 
 class Score
 {
@@ -16,6 +18,4 @@ class Score
         _points = points;
         _level = level;
     }
-
-    public bool EarnedStar() => (_points / _level) > 1000;
 }
