@@ -1,31 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Soup current = Soup.Potato;
+// Information Hiding
 
-
-while(true)
+class Rectangle 
 {
-string userInput = Console.ReadLine();
+    public float _width;
+    public float _height;
+    public float _area;
 
-
-if (userInput == "Chicken")
-{
-    current = Soup.Chicken;
-    Console.WriteLine(current);
-
-}
-    if (userInput == "Potato")
+    public Rectangle(float width, float height, float area) // Even without constructor, one will be written behind the scenes
     {
-
-    current = Soup.Potato;
-    Console.WriteLine(current);
+        _width = width;
+        _height = height;
+        _area = area;
     }
-    if (userInput == "Banana")
-    current = Soup.Banana;
-    Console.WriteLine(current);
-
 }
-
-
-enum Soup { Potato, Chicken, Banana } 
-
